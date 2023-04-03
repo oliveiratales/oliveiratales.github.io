@@ -15,12 +15,17 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Animate.css-->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <title>Tales Ribeiro - Dev. Front-end</title>
 </head>
 
 <body>
 
     <div class="container">
+
+        <!-- Main Section -->
         <section class="section" id="main-section">
             <!-- Header Start -->
             <header>
@@ -46,7 +51,7 @@
 
             <!-- Main Section Start -->
             <div class="main">
-                <div class="main-text">
+                <div class="main-text animate__animated animate__fadeInLeft animate__slow">
                     <h1 class="main-title">Olá, eu sou <span class="gradient">Tales,</span> desenvolvedor front-end!
                     </h1>
                     <p class="main-description">Apaixonado por tecnologia e games, estudante de análise de sistemas,
@@ -55,14 +60,15 @@
                     <button class="main-btn" href="#">Quero te conhecer!</button>
                 </div>
 
-                <div class="main-img">
-                    <img src="./images/emoji1.png" alt="Avatar de Tales">
+                <div class="main-img animate__animated animate__fadeInDown animate__slow">
+                    <img src="./images/emoji1.png" alt="Avatar de Tales" class="animate__animated animate__pulse animate__delay-2s	2s animate__infinite animate__slow">
                 </div>
             </div>
             <!-- Main Section End -->
         </section>
 
-        <section class="about" id="about-section">
+        <!-- About Section -->
+        <section class="about opacity" id="about-section">
             <div class="about-img">
                 <img src="./images/emoji2.png" alt="Emoji de Tales">
             </div>
@@ -94,7 +100,8 @@
 
         </section>
 
-        <section class="skills" id="skills-section">
+        <!-- Skills Section -->
+        <section class="skills" id="skills-section">    
 
             <h2>Minhas principais <span class="gradient">skills</span></h2>
 
@@ -189,6 +196,7 @@
 
         </section>
 
+        <!-- Projects Section -->
         <section class="projects" id="projects-section">
             <h2>Meus <span class="gradient">projetos</span></h2>
 
@@ -249,6 +257,7 @@
 
         </section>
 
+        <!-- Curriculum Section -->
         <section class="curriculum end-margin" id="curriculum-section">
             <div class="curriculum-details">
                 <h2>Baixe meu <span class="gradient">currículo</span></h2>
@@ -261,9 +270,11 @@
             </div>
         </section>
 
+        <!-- Circle Button -->
         <button id="scroll-to-top" class="scroll-btn"><i class="fas fa-arrow-up"></i></button>
     </div>
 
+    <!-- Footer Start -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-text">
@@ -275,6 +286,7 @@
             </div>
         </div>
     </footer>
+    <!-- Footer End -->
 </body>
 
 </html>
